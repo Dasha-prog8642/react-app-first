@@ -1,0 +1,51 @@
+.header {
+    background-color: rgba(58, 2, 61, 0.5);
+    padding: 20px;
+  margin-left: -50px;
+    border-radius: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  animation: headerAnimation 2s ease-in-out;
+}  
+body{
+      background-image: url(https://i.pinimg.com/1200x/9c/88/e3/9c88e3f9f43d7bc6f4b9d0d49e1af6f7.jpg) !important;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+}
+@keyframes headerAnimation {
+  0% {
+
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+  @keyframes textShadowAnimation {
+    0% {
+      text-shadow: 0px 0px 8px rgba(102, 219, 255, 0.234);
+    }
+    50% {
+      text-shadow: 0px 0px 16px rgba(102, 219, 255, 0.5);
+    }
+    100% {
+      text-shadow: 0px 0px 8px rgba(102, 219, 255, 0.234);
+    }
+}
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 34px;
+  color: #ffffff;
+  text-shadow: 0px 0px 8px rgba(102, 219, 255, 0.234);
+  animation: textShadowAnimation 3s infinite;
+}

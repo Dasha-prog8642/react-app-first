@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgba(97, 2, 121, 0.5);
+     color: white;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+    border-radius: 10px;
+}  
+body{
+background-image: url(https://i.pinimg.com/1200x/9c/88/e3/9c88e3f9f43d7bc6f4b9d0d49e1af6f7.jpg) !important;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: rgb(71, 3, 69);
+}
